@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bring a Bottle</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	
+	<h1>Bring a Bottle</h1>
+	<h2>Im unteren Formular trägt sich jeder mit Getränken/ Snacks ein, die er mitbringen möchte</h2>
+	<p>Beachten sie bitte, dass sämtliche Anforderungen an den Datenschutz konsequent ignoriert werden.</p>
+	<div class="flex-container">
+		<div class="input-container">
+			<div class="input">
+				<label for="Lname">Name</label>
+				<input type="text" id="Lname" name="Lname">
+			</div>
+			<div class="input">
+				<label for="Fname">Vorname</label>
+				<input type="text" id="Fname" name="Fname">
+			</div>
+			<div class="input">
+				<label for="bottle">Mitbringsel</label>
+				<input type="text" id="bottle" name="bottle">
+			</div>
+			<div class="button1 input">
+				<input type="button" onclick="Input()" value="Bestätigen" >
+			</div>
+		</div>	
+		<table id="tbl">
+			<tr>
+				<th>Name</th>
+				<th>Vorname</th>
+				<th>Mitbringsel</th>
+			</tr>	
+		</table>
+	</div>	
+	<script src="Javascript.js"></script>
+</body>
+</html>

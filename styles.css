@@ -1,0 +1,66 @@
+h1 {
+    font-family: Calibri, sans-serif;
+}
+h2 {
+    font-family: Calibri, sans-serif;
+}
+table {
+    border-collapse: collapse;
+    font-family: Calibri, sans-serif;
+  }
+ 
+td, th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    width: 200px;
+    height: 20px;
+}
+th {
+    background-color: beige;
+}
+.flex-container {
+    display: flex;
+    justify-content:space-around;
+    height: 200px;
+}
+.input-container {
+    display: inline;
+    width: 400px;
+    flex-direction: column;
+}
+#tbl {
+    display: inline;
+}
+label {
+    margin: 3px;
+    font-family: Calibri, sans-serif;
+}
+.input {
+    margin: 3px;
+    display: inline-flex;
+    justify-content: right;
+    width: 260px;
+    gap: 8px;
+}
+.button1 {
+    display: flex;
+}
+.button1 input {
+    background-color: beige;
+    width: 80px;
+    justify-content: center;
+    height: 30px;
+    font-family: Calibri, sans-serif;
+}
+.btn-container {
+    flex: 1 1 auto;
+    width: fit-content;
+    border: 0px;
+}
+.edit {
+    background-color: beige;
+    width: 80px;
+    justify-content: center;
+    height: 30px;
+    font-family: Calibri, sans-serif;
+}
